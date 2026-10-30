@@ -1,0 +1,21 @@
+{
+  "_note": "Copy to config.json and fill in. Never commit real IDs or tokens \u2014 use .env (see .env.example).",
+  "channels": {
+    "alerts": ""
+  },
+  "dryRun": true,
+  "edgar": {
+    "minIntervalMs": 220,
+    "userAgent": "GalahBot/1.0 (your-email@example.com)"
+  },
+  "settings": {
+    "gradeThreshold": "B",
+    "maxFilingsPerScan": 1200,
+    "minBuyValue": 100000,
+    "minPositionIncrease": 10,
+    "minSellReductionPct": 20,
+    "minSellValue": 250000,
+    "scanIntervalMs": 3600000,
+    "windowHours": 48
+  }
+}
